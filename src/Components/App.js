@@ -12,7 +12,7 @@ import "../styles/ImagePresentationCard.scss";
 import "../styles/LocationCard.scss";
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/reactWebLoc">
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/A-Propos" element={<APropos />} />
