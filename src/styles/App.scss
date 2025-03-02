@@ -1,0 +1,67 @@
+@import './Layout.scss';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: $Font;
+  line-height: 1.5;
+  padding: 0;
+  width: 100%;
+  background-color: $Black;
+}
+
+#root {
+  
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.MainContainer {
+
+  background-color: white;
+}
+
+.HeaderPageContent {
+  margin:  auto;
+  padding: 0px 50px;
+  max-width: 1440px;
+  display: block;
+
+
+}
+
+@media (max-width:650px) {
+  
+  .HeaderPageContent {
+    padding: 0px 20px;
+  }
+
+}

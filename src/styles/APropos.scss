@@ -1,0 +1,21 @@
+@import './Layout.scss';
+
+.APropos {
+    padding-bottom: 30px;
+}
+
+.APropos .MenuDeroulantEtContenu {
+    margin:0px 100px;
+}
+
+.APropos .ContainerMenuDeroulant {
+
+    margin-top:30px;
+    height: 40px;
+}
+
+@media (max-width:650px) {
+    .APropos .MenuDeroulantEtContenu {
+        margin: 0px;
+    }
+}

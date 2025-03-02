@@ -1,0 +1,33 @@
+@import './Layout.scss';
+
+.Home {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.GridLocation {
+    background-color: $Grey;
+    display: grid;
+    margin: 50px 0px;
+    column-gap: 60px;
+    row-gap: 50px;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 25px;
+}
+
+@media (max-width:650px) {
+    .GridLocation {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0px;
+        padding: 0px;
+        row-gap: 40px;
+        background-color: white;
+    }
+
+    .ChezVous {
+        margin-right: 400px;
+    }
+}

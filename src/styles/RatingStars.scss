@@ -1,0 +1,19 @@
+@import './Layout.scss';
+
+.SetRed {
+    fill: $Red;
+}
+
+.SetGrey {
+    fill: $Grey;
+}
+
+.RatingStar {
+    display: flex;
+    height: 200%;
+}
+
+.RatingStar svg {
+
+    margin-left: 5px;
+}

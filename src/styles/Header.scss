@@ -1,0 +1,31 @@
+@import './Layout.scss';
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    height: 100px;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+header a {margin-left: 50px;}
+
+.selected {
+    text-decoration: underline;
+}
+
+header svg {
+    fill: $Red;
+}
+
+@media (max-width:650px) {
+    .Logo {
+        width: 50%;
+    }
+    header a {
+        font-size: 60%;
+        margin-left: 5px;
+    }
+}

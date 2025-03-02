@@ -1,0 +1,31 @@
+@import './Layout.scss';
+
+.LocationCard {
+    display: flex;
+    flex-direction: column;
+    background-color: $Red;
+    border-radius: 10px;
+    color: white;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 1px 2px 22px 7px rgba(0,0,0,0.2);
+}
+
+.LocationCard h2 {
+    padding: 15px;
+    font-size: 100%;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.ContainerImageLocation {
+    width: 100%;
+    overflow: hidden;
+    height: 70%;
+}
+
+.ContainerImageLocation img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

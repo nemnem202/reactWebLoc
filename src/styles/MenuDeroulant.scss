@@ -1,0 +1,44 @@
+@import './Layout.scss';
+
+
+
+.ContainerMenuDeroulant {
+    display: flex;
+    justify-content: space-between;
+    background-color: $Red;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+
+
+}
+
+
+
+.ContenuMenuDeroulant {
+    margin-left:20px;
+}
+
+.ContenuMenuDeroulant.open {
+    margin-top: 10px;
+    max-height: 1000px; 
+    opacity: 1;
+    transition: max-height 0.1s ease-in, opacity 0.1s ease-in, margin-top 0.1s ease-in;
+}
+
+.ContenuMenuDeroulant.closed {
+    margin-top: 0px;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.1s ease-out, opacity 0.1s ease-out, margin-top 0.1s ease-out;
+}
+
+.fleche {
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.fleche.open {
+    transform: rotate(-180deg);
+}
+

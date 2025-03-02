@@ -1,0 +1,50 @@
+@import './Layout.scss';
+
+.NotFoundContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.NotFoundContainer h1 {
+    color: $Red;
+    font-size: 1500%;
+}
+
+.NotFoundContainer h2 {
+    color: $Red;
+    font-size: 200%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.NotFoundContainer a {
+    text-decoration: underline;
+}
+
+.NotFoundContainer h1, .NotFoundContainer h2, .NotFoundContainer a {
+    line-height: 1;
+    box-sizing: border-box;
+    margin-top: 120px;
+}
+
+@media (max-width:650px) {
+    .NotFoundContainer h1 {
+        color: $Red;
+        font-size: 500%;
+    }
+    .NotFoundContainer h2 {
+        font-size: 100%;
+
+    }
+    .NotFoundContainer h1, .NotFoundContainer h2, .NotFoundContainer a {
+        margin-top: 80px;
+    }
+    .NotFoundContainer a {
+        font-size: 80%;
+    }
+    .NotFoundContainer span {
+        display: block;
+    }
+}

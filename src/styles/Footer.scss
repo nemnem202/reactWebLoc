@@ -1,0 +1,23 @@
+@import 'Layout.scss';
+
+footer {
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $Black;
+
+}
+
+footer svg {fill: white;}
+
+footer div {
+    margin: 15px auto ;
+
+}
+
+footer .Logo {
+    width: 100px;
+    margin-top: 40px;
+}
